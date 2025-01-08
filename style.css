@@ -340,7 +340,7 @@ ul{
         flex-direction: column;
         align-items: center;
     }
-    .pr4{
+    .pr-price{
         padding-right: 5%;
     }
 }
