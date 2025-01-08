@@ -253,11 +253,22 @@ ul{
     padding: 0;
     margin: 0;
 }
+#bars{
+    display: none;
+    margin: 0;
+    padding: 0;
+}
 @media(max-width: 768px){
     .header ul{
         display: none;
     }
     .btn{
         display: none;
+    }
+    .header h1{
+        padding: 10px 2px;
+    }
+    .header #bars{
+        display: block;
     }
 }
